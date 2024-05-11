@@ -1,0 +1,115 @@
+
+.user-account {
+    width: 100%;
+}
+
+.g {
+    width: 100%;
+    height: 1px;
+    background: #999393;
+}
+
+/* .cont-fixed {
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+} */
+
+.active_navScroll {
+    position: fixed;
+    z-index: 100;
+    animation: navScroll 1s;
+}
+
+@keyframes navScroll {
+    from {
+        opacity: 0;
+        top: 0;
+    }
+
+    to {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+
+/* <template>
+    
+
+<section class="container">
+        
+    <!-- title -->
+    <div class="row mb-5 fs-5">
+        <div class="col-12">Материалы.</div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 mb-3">
+        <button class="btn btn-outline-light link-tab btn_active" data-path="one">
+            Таб 1
+        </button>
+        <button class="btn btn-outline-light link-tab" data-path="two">Таб 2.</button>
+        <button class="btn btn-outline-light link-tab" data-path="three">Таб 3</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-3 box box_active" data-target="one">
+                <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+                <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+                <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+                <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+                <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+                <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+            </div>
+   
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-3 box" data-target="two">
+            <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+        </div>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-3 box" data-target="three">
+            <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+            <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+            <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+            <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+            <div class="col"><img src="https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg" alt="" class="img-fluid"></div>
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+</template>
+
+<script>
+
+// trailer
+// (function(){
+// document.querySelector('#trailer').addEventListener('click', function(){
+//     document.querySelector('.trailer').style.display = 'flex'
+//     document.body.style.overflowY = 'hidden'
+// })
+// document.querySelector('#close').addEventListener('click', function(){
+//     document.querySelector('.trailer').style.display = 'none'
+//     document.body.style.overflowY = 'visible'
+// })
+// })()
+
+// // Season of desire
+// document.addEventListener('DOMContentLoaded', function() {
+// document.querySelectorAll('.link-tab').forEach(function(tabLink) {
+// tabLink.addEventListener('click', function(event) {
+//   const path = event.currentTarget.dataset.path
+//   document.querySelectorAll('.link-tab').forEach(function(tabContent){
+//     tabContent.classList.remove('btn_active')
+//   });
+//   event.currentTarget.classList.add("btn_active")
+//   document.querySelectorAll('.box').forEach(function(tabContent) {
+//     tabContent.classList.remove('box_active')
+//   })
+//   document.querySelector(`[data-target="${path}"]`).classList.add('box_active')
+// })
+// })
+// }) */
